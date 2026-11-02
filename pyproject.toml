@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "4kitten-embodiedalgo_jd172"
+name = "4kitten-mixed_precision_overflow_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列具身智能算法工程师·混合精度的溢出与下溢的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://4kitten.github.io"
-Repository = "https://github.com/4kitten/embodiedalgo_jd172"
-Issues = "https://github.com/4kitten/embodiedalgo_jd172/issues"
+Repository = "https://github.com/4kitten/mixed_precision_overflow_timeline_score"
+Issues = "https://github.com/4kitten/mixed_precision_overflow_timeline_score/issues"
 
 [project.scripts]
-embodiedalgo_jd172 = "embodiedalgo_jd172:main"
+mixed_precision_overflow_timeline_score = "mixed_precision_overflow_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["embodiedalgo_jd172"]
+py-modules = ["mixed_precision_overflow_timeline_score"]
